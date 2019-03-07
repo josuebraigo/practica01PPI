@@ -1,49 +1,20 @@
-img{
-background: #666666;
-}
-
-.menu{
-widht: 100%;
-background: #666666;
-list-style: none;
-margin: 0;
-padding: 0;
-float: right;
-}
-
-.menu li{
-padding: 10px 20px;
-display: inline-block;
-}
-
-.menu li a{
-display: inline-block;
-color: #fff;
-}
-
-.menu li a:hover{
-color: #F7FE2E;
-}
-
-div{
-text-align: justify;
-widht: 100px;
-height: 100px;
-float: left;
-}
-
-.Izq{
-position: relative;
-top: 200px;
-bottom: 0;
-right: 0;
-left: 200px;
-}
-
-.Der{
-position: relative;
-top: 200px;
-bottom: 0;
-right: 0;
-left: 200px;
+#home {
+	nav {
+		background: #48611C;
+		ul{
+			list-style: none;
+			float: right;
+			li{
+				display: inline-block;
+				a{
+				padding: 10px 20px;
+				display: inline-block;
+				color: #fff;
+				}
+				a:hover{
+					color: #F7FE2E;
+				}
+			}
+		}
+	}
 }
