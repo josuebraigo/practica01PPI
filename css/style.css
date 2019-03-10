@@ -1,0 +1,13 @@
+#home nav {
+  background: #48611C; }
+  #home nav ul {
+    list-style: none;
+    float: right; }
+    #home nav ul li {
+      display: inline-block; }
+      #home nav ul li a {
+        padding: 0px 20px;
+        display: inline-block;
+        color: #fff; }
+      #home nav ul li a:hover {
+        color: #F7FE2E; }
