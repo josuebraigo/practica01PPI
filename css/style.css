@@ -1,13 +1,134 @@
-#home nav {
-  background: #48611C; }
-  #home nav ul {
-    list-style: none;
-    float: right; }
-    #home nav ul li {
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("fonts/MyriadPro-Regular.eot");
+  src: url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Regular.woff2") format("woff2"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype"), url("fonts/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Myriad Pro-Bold';
+  src: url("fonts/MyriadPro-Bold.eot");
+  src: url("fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Bold.woff2") format("woff2"), url("fonts/MyriadPro-Bold.woff") format("woff"), url("fonts/MyriadPro-Bold.ttf") format("truetype"), url("fonts/MyriadPro-Bold.svg#MyriadPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Myriad Pro';
+  font-size: 16px; }
+
+#home header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #878781; }
+  #home header img {
+    padding: 1% 0;
+    width: 30%;
+    padding-left: 3%; }
+  #home header nav {
+    padding-right: 3%; }
+    #home header nav ul li {
       display: inline-block; }
-      #home nav ul li a {
-        padding: 0px 20px;
+      #home header nav ul li a {
+        text-decoration: none;
+        border-right: 1px solid #fff;
+        padding: 0 30px;
         display: inline-block;
         color: #fff; }
-      #home nav ul li a:hover {
-        color: #F7FE2E; }
+        #home header nav ul li a:hover {
+          color: #F7FE2E; }
+      #home header nav ul li:last-child a {
+        border: none; }
+
+#home .slideAuto {
+  width: 100%; }
+  #home .slideAuto .slide {
+    position: relative; }
+    #home .slideAuto .slide .texto {
+      position: absolute;
+      top: 5em;
+      left: 8%;
+      color: #fff; }
+      #home .slideAuto .slide .texto h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-family: 'Myriad Pro-Bold'; }
+      #home .slideAuto .slide .texto a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        display: block;
+        width: 10vw;
+        text-align: center;
+        padding: .5em 0;
+        font-size: 1.25em; }
+        #home .slideAuto .slide .texto a:hover {
+          background-color: #fff;
+          color: #000; }
+
+#home .columnas {
+  width: 80%;
+  margin: 3em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  #home .columnas p {
+    width: 44%;
+    font-size: 1.25em;
+    text-align: justify; }
+
+#home footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #878781;
+  width: 100%; }
+  #home footer .texto {
+    text-align: center;
+    color: #fff;
+    width: 50%; }
+  #home footer .logo {
+    width: 25%; }
+    #home footer .logo img {
+      width: 75%;
+      padding-left: 10vw; }
+  #home footer .fb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 25%; }
+    #home footer .fb img {
+      padding-right: 10vw; }
