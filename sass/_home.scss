@@ -1,1 +1,20 @@
- @import "_home.scss";
+#home {
+	nav {
+		background: #48611C;
+		ul{
+			list-style: none;
+			float: right;
+			li{
+				display: inline-block;
+				a{
+				padding: 10px 20px;
+				display: inline-block;
+				color: #fff;
+				}
+				a:hover{
+					color: #F7FE2E;
+				}
+			}
+		}
+	}
+}
